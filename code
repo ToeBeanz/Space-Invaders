@@ -99,8 +99,10 @@ def iscollision(t1, t2):
 
 # key bindings
 turtle.listen()
-turtle.onkey(move_left, "Left")
-turtle.onkey(move_right, "Right")
+turtle.onkey(move_left, "a")
+turtle.onkey(move_left, "A")
+turtle.onkey(move_right, "d")
+turtle.onkey(move_right, "D")
 turtle.onkey(fire_bullet, "space")
 
 # Main game loop
